@@ -71,7 +71,8 @@ a {
   }
   .container-countdown {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
   #countdown {
     margin: 10px;
