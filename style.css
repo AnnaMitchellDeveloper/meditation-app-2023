@@ -1,22 +1,44 @@
 body {
-	font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 h1 {
-	text-align: center;
-	font-size: 60px;
+  text-align: center;
+  font-size: 60px;
+  color: aliceblue;
+  text-shadow: 2px 2px 5px pink;
 }
-a{
-	text-decoration: none;
+a {
+  text-decoration: none;
+  color: white;
 }
 button {
-	font-family: 'Playfair Display', serif;
-	font-size: 30px;
-	border: none;
-	border-radius: 10px;
-	padding: 10px 20px;
-	
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: rgb(112, 110, 110);
+  opacity: 0.8;
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
 }
 .btn-container {
-	display: flex;
-	justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
+}
+#myVideo {
+  position: fixed;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -10;
 }
