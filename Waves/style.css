@@ -45,11 +45,10 @@ a {
 @media all and (max-width: 600px) {
   #startButton {
     display: block;
-    width: 100px;
+    width: 90px;
     font-size: 30px;
     border: none;
     border-radius: 10px;
-    padding: 10px 20px;
     background: radial-gradient(
       circle at 7.5% 24%,
       rgb(237, 161, 193) 0%,
@@ -90,6 +89,6 @@ a {
     color: aliceblue;
   }
   p.heading a {
-    margin: 0px;
+    margin: 0;
   }
 }
