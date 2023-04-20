@@ -22,6 +22,9 @@ body {
   );
   opacity: 0.8;
 }
+#startButton {
+  display: none;
+}
 #myVideo {
   position: fixed;
   top: 0;
@@ -30,3 +33,37 @@ body {
   min-height: 100%;
   z-index: -10;
 }
+@media all and (max-width:600px) {
+  #startButton {
+  display: block;
+  width: 100px;
+  text-align: center;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
+  opacity: 0.8;
+  }
+  body {
+    background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
+  }
+  .container-countdown {
+  display: flex;
+  justify-content: center;
+}
+}
+
+
