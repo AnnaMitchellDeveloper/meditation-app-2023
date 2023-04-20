@@ -5,15 +5,18 @@ function calculateTime(){
 	const countdown = document.querySelector("#countdown");
 	let minutes = Math.floor(timerSeconds/60);
 	let seconds = timerSeconds%60;
+
+	if (seconds < 10) {
+		seconds = "0" + seconds;
+	}
 	countdown.textContent = `${minutes} : ${seconds}`;
 	timerSeconds--;
-
-	console.log(timerSeconds);
 
 	if (timerSeconds < 0){
 		stopTimer();
 		timerSeconds = 0;
 	}
+
 	function stopTimer(){
 		clearInterval(timerID);
 	}
