@@ -52,3 +52,9 @@ footer p {
 footer a {
   text-decoration: underline;
 }
+@media all and (max-width:600px) {
+  h1 {
+    text-shadow: 2px 2px 5px gray;
+  }
+  
+}

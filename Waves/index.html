@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>🌊 Waves</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="data:,">
+    <link rel="icon" href="data:," />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,9 +15,10 @@
     />
   </head>
   <body>
-    <p><a href="../index.html">Back to home page</a></p>
     <div class="container-countdown">
+      <p class="heading"><a href="../index.html">Back to home page</a></p>
       <p id="countdown">Relax...</p>
+      <button class="heading" id="startButton">Start</button>
     </div>
     <audio id="player" autoplay loop>
       <source
@@ -39,8 +40,7 @@
         type="video/mp4"
       />
     </video>
-    <button id="startButton">Start</button>
-    
+
     <script src="script.js"></script>
   </body>
 </html>
