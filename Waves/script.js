@@ -1,3 +1,10 @@
+const startButton = document.querySelector("#startButton");
+startButton.addEventListener("click", function(){
+	document.querySelector("#player").play();
+	document.querySelector("#myVideo").play();
+})
+
+
 let timerMinutes = 1;
 let timerSeconds = timerMinutes * 60;
 
