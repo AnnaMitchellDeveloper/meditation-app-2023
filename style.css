@@ -42,3 +42,13 @@ button:hover {
   min-height: 100%;
   z-index: -10;
 }
+footer {
+  color: white;
+}
+footer p {
+  text-align: center;
+  margin-top: 450px;
+}
+footer a {
+  text-decoration: underline;
+}
